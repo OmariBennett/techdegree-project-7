@@ -1,0 +1,33 @@
+{
+  "name": "techdegree-project-7",
+  "version": "1.0.0",
+  "description": "Build a Twitter API Interface",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmariBennett/techdegree-project-7.git"
+  },
+  "keywords": [
+    "Teamtreehouse",
+    "treehouse",
+    "REST",
+    "Twitter",
+    "API"
+  ],
+  "author": "Omari Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmariBennett/techdegree-project-7/issues"
+  },
+  "homepage": "https://github.com/OmariBennett/techdegree-project-7#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "twit": "^2.2.10"
+  }
+}
