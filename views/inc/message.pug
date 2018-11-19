@@ -1,0 +1,14 @@
+.grid-33
+  .app--section
+    ul.app--message--list
+      li
+        h3
+          | Conversation with 
+          a Jill Spore
+        ul.app--message--conversation
+          each message in directMessages
+            li(class=(message.messageRecipient_id === user.id) ? 'app--message' : 'app--message--me')
+              .app--avatar(style=`background-image: url(${message.user.profile_image_url})`)
+                img(src=`${message.user.profile_image_url}`)
+              p.app--message--text= `${message.message}`
+              p.app--message--timestamp= `${message.user.created_at} hours ago`
