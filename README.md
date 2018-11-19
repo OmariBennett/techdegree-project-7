@@ -1,10 +1,11 @@
 # techdegree-project-7
 ### Build a Twitter Interface
 #### By: Omari Bennett
-######To Start the Twitter Interface app run "npm start"
+###### To Start the Twitter Interface app run "npm start"
 Using Node to connect to 3rd party APIs provides much greater control than using just AJAX. Server-side communication with APIs offers many more options and greater access to data.
 
 <<<<<<< HEAD
+
 Requirements:  
 	* Dependency Management  
 		&nbsp;&nbsp; -[] Project includes a package.json file containing dependencies to run the project  
